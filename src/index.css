@@ -1,0 +1,47 @@
+
+.main-content{
+  background: white url("./assets/img/group.jpg") no-repeat scroll center;
+  height: 100vh;
+  color: white;
+}
+.main-content-wrapper{
+  background-color:rgba(241,241,241,0.4);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.main-content h1{
+  margin: 0;
+  font-size: 60px;
+}
+.main-content p{
+  font-size: 20px;
+}
+.text-teal{
+  color: #002f2f !important;
+  text-shadow: 0 0 2px white;
+}
+.c-image{
+  border: 5px solid white;
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+.c_card{
+  box-shadow: 0 0 10px #002f2f;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.c_card:hover{
+  background-color:rgb(236,196,159);
+  color:black;
+  transform: perspective(400px) rotateY(10deg);
+}
+.google-map{
+  box-shadow: 0 0 10px black;
+  border-radius: 10px;
+}
+
+
